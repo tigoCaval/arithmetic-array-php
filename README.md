@@ -13,6 +13,7 @@ $op = new ArithmeticArray();
 $a = ['y'=>10,'x'=>9.50];
 $b = ['y'=>3,'x'=>3];
 
+// numeric values are rounded
 print_r($op->operation($a,$b,'+')); // result = ['y'=>13 'x'=>12.5]
 print_r($op->operation($a,$b,'-')); // result = ['y'=>7 'x'=>6.5]
 print_r($op->operation($a,$b,'*')); // result = ['y'=>30 'x'=>28.5]
