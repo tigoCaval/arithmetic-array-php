@@ -1,5 +1,10 @@
 <?php
 
+/**
+ * Mathematical operation with arrays
+ * 
+ * @author Tiago A C Pereira
+ */
 class ArithmeticArray
 {
      
